@@ -13,6 +13,9 @@ In these samples, we found that with longer reads 3 extra species were annotated
 ## Sequencing depth
 For checking if sequencing depth makes a difference in identifying species, we would recommend reading this paper https://msystems.asm.org/content/3/6/e00069-18
 
+In our test,for 100 samples + mock samples, with 3 M reads (shallow) or 9 M reads (deep) very minor differences were found. All samples corrrelated very well with when compared at 2 different depths (mean=0.993,df=0.03). In deep sequencing samples, we found that 73 species were annotated more than shallow sequencing. However for most of the species relative abundance values in deep samples were < 1e-4 except for Achromobacter_ruhlandii, a species present in our mock samples which was not identified with shallow sequencing.
 
 ## Percent annotated
+
+In our expericence, with using the commonly used annotation packages like metaphlan3, kraken2 or Kaiju on average 47.6 % (sd=12.89,n=210) of the reads can be unclassfied. 
 
