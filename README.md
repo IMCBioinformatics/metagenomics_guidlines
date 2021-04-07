@@ -6,8 +6,7 @@ Shotgun metagenomics
 ## Read length
 For shotgun metagenomics data, two available lengths are 150 bp and 250 bp. To see if there is a difference between the two, one a dataset of mouse samples, we tested if read length made a difference. To test this, we shortend our orginal reads of length 250 bp to either close to 150 by removing 100 (250-150 =100) bps or by fixing the legnth to 150 bp using cutadapt. 
 
-In these samples, we found that with longer reads 3 extra species were annotated but only one had relative abundance values > 1e-4.
-
+In these samples, we found that with longer reads 2 more bacterial species (Eggerthella_lenta, Enterococcus_faecalis) were annotated with read length 250bp. A viral species was also identified.
 
 
 ## Sequencing depth
